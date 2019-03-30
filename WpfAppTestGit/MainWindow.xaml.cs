@@ -34,5 +34,15 @@ namespace WpfAppTestGit
         {
             MessageBox.Show("click2");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("click3");
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
